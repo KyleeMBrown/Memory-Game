@@ -1,0 +1,59 @@
+@media screen and (max-width:1272px) {
+    .title-wrapper{
+        font-size: 38px;
+    }
+    .card{
+        height: 45%;
+    }
+}
+
+
+
+@media screen and (max-width:886px) {
+    .title-wrapper{
+        font-size: 20px;
+    }
+    span{
+        width: 18px;
+    }
+    .card{
+        height: 25%;
+    }
+}
+
+@media screen and (max-width:1056px) {
+    .title-wrapper{
+        margin-top: 28px;
+        font-size: 13px;
+    }
+    .card{
+        height: 55%;
+    }
+}
+
+/*Apple Watch*/
+@media screen and (max-width:162px) {
+    .title-wrapper{
+        top: 8%;
+        position: absolute;
+        font-size: 5px;
+    }
+    span{
+        width: 5px;
+    }
+    .card{
+        height: 55%;
+    }
+    .start-btn{
+        margin-top:35px;
+        font-size: 15px;
+    
+    }
+    .card-wrapper{
+        border-radius: 10px;
+    }
+    .game-area{
+        margin-top: 20px;
+        width: 98%;
+    }
+}

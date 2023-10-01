@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="keyframes.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://fonts.cdnfonts.com/css/spicy-crackers?styles=165022" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <main>
+        <div class="card-wrapper" id="card-wrapper">
+            <div class="title-wrapper">
+                <h1>M</h1>
+                <h1>e</h1>
+                <h1>m</h1>
+                <h1>o</h1>
+                <h1>r</h1>
+                <h1>y</h1>
+                <span></span>
+                <h1>G</h1>
+                <h1>a</h1>
+                <h1>m</h1>
+                <h1>e</h1>
+            </div>
+            <div id="game-start" class="game-start">
+              <button onclick="start()" class="start-btn">STA R T</button>  
+            </div>
+            
+            <div id="game-area" class="game-area">
+                <div id ='first-row' class="row">
+                <div id="card1" class="card"></div>
+                   <div id="card2" class="card"></div>
+                   <div id="card3" class="card"></div>
+                   <div id="card4" class="card"></div>
+                   <div id='card5' class="card"></div>
+                   <div id="card6" class="card"></div>
+                </div>
+                <div id="second-row" class="row">
+                   <div id="2-card-1" class="card"></div>
+                   <div id="2-card-2" class="card"></div>
+                   <div id="2-card-3" class="card"></div>
+                   <div id="2-card-4" class="card"></div>
+                   <div id="2-card-5" class="card"></div>
+                   <div id="2-card-6" class="card"></div>
+                </div>
+                </div>
+            </div>
+
+            <div id="restart" class="restart">
+                <button onclick="restart()" class="restart-btn">RESTA R T</button>  
+              </div>
+            
+        </div>
+    </main>
+</body>
+
+</html>

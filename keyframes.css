@@ -1,0 +1,59 @@
+
+@keyframes bounceDown {
+    0%{
+        margin-bottom: 800px;
+    }
+    50% {
+        margin-bottom: 0px;
+        
+    }
+    100%{
+        margin-bottom: 75px;
+    }
+}
+
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        
+    }
+
+}
+
+@keyframes cardFlip {
+    0%{
+        transform: scaleX(100%)
+    }
+    50%{
+        transform: scaleX(0%)
+    }
+    100% {
+        transform: scaleX(100%);
+    }
+}
+
+
+@keyframes cardFlip2 {
+    0%{
+        transform: scaleX(-100%)
+    }
+    50%{
+        transform: scaleX(0%)
+    }
+    100% {
+        transform: scaleX(-100%);
+    }
+}

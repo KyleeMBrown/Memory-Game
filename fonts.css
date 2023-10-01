@@ -1,0 +1,11 @@
+/*Bubble Letters*/
+@font-face {
+    font-family: Bbg;
+    src: url('Fonts/BUBBLEGUMS.TTF');
+}
+
+/*Video game font*/
+@font-face {
+    font-family: Arcade;
+    src: url('Fonts/ARCADECLASSIC.TTF');
+}
